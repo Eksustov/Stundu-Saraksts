@@ -1,3 +1,3 @@
 export default function App(){
-    return <div>Stundu Saraksts</div>;
+    return <div>Stundu Saraksts jau šodien</div>;
 }
