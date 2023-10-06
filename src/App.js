@@ -6,6 +6,14 @@ function App(){
         'Socialas zinibas',
         'Krievu valoda'
     ];
+    const visasStundas = {
+        "Pirmdiena": [
+            'Sports',
+            'Dabaszinibas',
+            'Socialas zinibas',
+            'Krievu valoda'
+    ]
+    }
     return (
     <>
     <div>Stundu Saraksts jau šodien</div>
