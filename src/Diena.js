@@ -1,4 +1,5 @@
 import Stunda from './Stunda.js';
+import styles from "./Diena.module.css";
 
 function Diena(props) {
     const stundasJSX = props.stundas.map((stunda,indekss) => {
@@ -6,7 +7,9 @@ function Diena(props) {
     })
     return (
     <>
-    <h1>{props.diena}</h1>
+    <div className={styles.cube}>
+    <h1 className={styles.violets}>{props.diena}</h1>
+    </div>
     <ul>
         {stundasJSX}
     </ul>
